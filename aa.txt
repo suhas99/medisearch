@@ -1,0 +1,12 @@
+if medtype_id == 1 :
+   med_type = 'tablets'
+  elif medtype_id == 2 :
+   med_type = 'ointments'
+  elif medtype_id == 3 :
+   med_type = 'tonics'
+  elif medtype_id == 4 :
+   med_type = 'cosmetics'
+  elif medtype_id == 5 :
+   med_type = 'others'
+  else :
+   med_type = 'not_valid'

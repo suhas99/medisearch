@@ -1,0 +1,11 @@
+<form action="/user/register/" method="post" id="register" autocomplete="off">
+{% csrf_token %}
+<div class="fieldWrapper">
+  {{ form.name.errors }}
+  {{ form.name.label_tag }}
+  {{ form.name }}
+</div>
+[... other form fields ...]
+</div>
+<input type="submit" value="Register"/>
+</form>

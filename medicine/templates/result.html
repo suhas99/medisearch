@@ -1,0 +1,29 @@
+<Doctype html>
+<head>
+<title>Medisearch</title>
+</head>
+<body>
+<h2>Welcome to MediShopsearch</h2>
+<h3>First Medical Shop is {{result}}</h3>
+</body>
+
+
+
+<form method="get" action="/search/">
+          
+
+<label for="id_q">Search:</label>
+           <input type="text" name="q" id="id_q"/>
+           <input type="submit" value="Submit"/>
+
+
+        </form>
+
+       
+
+You searched for "{{ query_string }}" and the results are listed below.
+
+
+           <li> {{ found_entries }}}</li>
+
+</html> 
